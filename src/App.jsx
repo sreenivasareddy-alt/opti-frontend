@@ -1,10 +1,5 @@
-import { Button } from "@/components/ui/button";
-import { ChartBar } from "phosphor-react";
+import TestSetup from "@/components/TestSetup";
 
 export default function App() {
-  return (
-    <div className="min-h-screen bg-accent-gradient flex items-center justify-center">
-      
-    </div>
-  );
+  return <TestSetup />;
 }

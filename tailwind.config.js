@@ -27,6 +27,7 @@ export default {
         
         primary: {
           DEFAULT: 'hsl(var(--primary))',
+          500: 'hsl(var(--primary))', 
           foreground: 'hsl(var(--primary-foreground))',
         },
         secondary: {
@@ -65,3 +66,4 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 };
+
